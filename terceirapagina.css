@@ -1,0 +1,173 @@
+body {
+    overflow-y: hidden;
+    height: 100vh;
+    height: 100vh;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+      
+      "aside main";
+     
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 100vh 100vh;
+  }
+
+  .aside {
+    grid-area: aside;
+    margin: 5%;
+    
+    
+  }
+
+  .aside h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #1e4119;
+  }
+
+  .aside p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #1e2019;
+    opacity: 0.7;
+    font-size: 13px;
+  }
+
+  #img01 {
+    width: 300px;
+    height: 370px;
+    background-color: #f1f1f1; /* Cor de fundo do álbum */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do álbum */
+  }
+
+  #img02 {
+    width: 240px;
+    height:160px;
+    
+    background-color: #f1f1f1; /* Cor de fundo do álbum */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do álbum */
+  }
+
+  #img03 {
+    width:260px;
+    height:280px;
+    background-color: #f1f1f1; /* Cor de fundo do álbum */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do álbum */
+  }
+
+  .image {
+    flex: 1;
+    margin-right: 10px; /* Espaçamento entre as imagens */
+   
+  }
+  
+  .image:last-child {
+    margin-right: 0;
+  }
+  
+
+  .topico {
+    color:  #1e4119;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ------------------------------------------------------------------
+
+  .main{
+    grid-area: main;
+    border: 1px solid black;
+    margin: 5%;
+    
+
+    
+  }
+
+  .main .image-text {
+    
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    padding: 10px;
+    text-align: justify;
+    
+  }
+
+  .topico2{
+    color:  #1e4119;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  .main p{
+    color:  #1e4119;
+   font-family: Arial, Helvetica, sans-serif;
+    color:  #1e2019;
+    opacity: 0.7;
+    font-size: 13px;
+   
+  }
+
+  #img04{
+    padding: 5%;
+    width: 240px;
+    height: 340px;
+    
+    
+  }
+
+  #img05{
+    padding: 1%;
+    width: 300px;
+    height: 540px;
+    background-color: #f1f1f1; /* Cor de fundo do álbum */
+    margin-top: 5%;
+    
+  }
+
+  .txt p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #1e2019;
+    opacity: 0.6;
+    font-size: 13px;
+  }
+
+
+  #setadireita {
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    
+  }
+
+  #setaesquerda {
+    position: absolute;
+    bottom: 50%;
+    left: 2%;
+    
+  }
+
+  #setaesquerda a{
+  
+    text-decoration: none;
+    color: #1e2019;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  
+  #setadireita a{
+  
+    text-decoration: none;
+    color: #1e2019;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+
+  .image-container {
+    display: flex;
+  }
+  
+
+ 
